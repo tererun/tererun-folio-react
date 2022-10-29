@@ -1,0 +1,28 @@
+body {
+
+}
+
+.Home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.TererunIcon {
+    position: relative;
+}
+
+.TererunIcon img {
+    image-rendering: pixelated;
+    width: 140px;
+}
+
+.TererunIcon object {
+    position: absolute;
+    top: 93px;
+    left: 53px;
+    width: 40px;
+    clip-path: inset(0, 30px, 0, 0);
+}
