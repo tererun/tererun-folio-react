@@ -1,0 +1,35 @@
+.NightHome {
+
+}
+
+.NightHome img {
+    position: absolute;
+    height: 320px;
+    top: 0;
+    right: 10%;
+}
+
+.LightPullSwitchOn {
+    animation: light-pull-switch-on-animation 1s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes light-pull-switch-on-animation {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(48px);
+    }
+
+    60% {
+        transform: translateY(-100vh);
+    }
+
+    100% {
+        transform: translateY(-100vh);
+    }
+
+}

@@ -1,0 +1,14 @@
+body {
+    background-color: #f1f2f6;
+}
+
+.Works {
+    display: inline-block;
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.WorksContainer {
+
+}

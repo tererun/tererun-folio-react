@@ -1,0 +1,25 @@
+.Confetti {
+    animation: confetti-animation 4s linear infinite;
+}
+
+@keyframes confetti-animation {
+
+    0% {
+        opacity: 0;
+        transform: translateY(0) rotateX(0) rotateY(0) rotateZ(0);
+    }
+
+    5% {
+        opacity: 100;
+    }
+
+    60% {
+        opacity: 100;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(200px) rotateX(540deg) rotateY(360deg) rotateZ(540deg);
+    }
+
+}
