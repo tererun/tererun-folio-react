@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 3">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6cca72;
+      }
+
+      .cls-2 {
+        fill: #8df385;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー 1">
+    <path class="cls-2" d="M0,2H1v1H0v-1Zm5,0h1v1h-1v-1Z"/>
+    <rect class="cls-1" width="1" height="2"/>
+    <rect class="cls-1" x="5" width="1" height="2"/>
+  </g>
+</svg>
