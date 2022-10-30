@@ -7,9 +7,11 @@ import NightHome from "../components/home/NightHome";
 const Home = () => {
 
     const date = new Date();
+    const hours = date.getHours();
 
     let contents = <DefaultHome />;
     let confetti;
+    let night;
 
     const randomizedNumber = getRandomInt(100);
     if (randomizedNumber == 57) {
@@ -18,12 +20,15 @@ const Home = () => {
     if (date.getMonth() == 11 && date.getDate() == 19) {
         confetti = <ConfettiHome />
     }
+    if (hours >= 0 && hours <= 6) {
+        night = <NightHome />
+    }
 
     return (
         <div className={styles.Home}>
             {contents}
             {confetti}
-            <NightHome />
+            {night}
         </div>
     );
 

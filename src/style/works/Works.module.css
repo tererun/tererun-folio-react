@@ -1,0 +1,26 @@
+body {
+    background-color: #f1f2f6 !important;
+}
+
+.Works {
+    box-sizing: border-box;
+}
+
+.WorksTitle {
+    margin: 48px 0 24px 0;
+}
+
+.WorksContainer {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.WorkCardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 340px);
+    justify-content: center;
+    grid-gap: 1rem;
+}

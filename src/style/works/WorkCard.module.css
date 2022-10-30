@@ -1,0 +1,28 @@
+.WorkCard {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 320px;
+    min-height: 246px;
+    padding: 8px;
+    border-radius: 48px 0;
+    filter: drop-shadow(0 0 16px #00000026);
+}
+
+.WorkCardThumbnail {
+    height: 180px;
+    border-top-left-radius: 48px;
+    object-fit: cover;
+}
+
+.WorkCardInfoContainer {
+    margin: 8px;
+}
+
+.WorkCardInfoTitle {
+    margin: 8px 0 8px 0;
+}
+
+.WorkCardInfoDescription{
+    margin: 0;
+}
