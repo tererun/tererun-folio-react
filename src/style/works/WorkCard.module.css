@@ -11,7 +11,7 @@
 
 .WorkCardThumbnail {
     height: 180px;
-    border-top-left-radius: 48px;
+    border-top-left-radius: 41px;
     object-fit: cover;
 }
 
