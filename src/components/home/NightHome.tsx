@@ -3,7 +3,7 @@ import NightOverlayHome from "./NightOverlayHome";
 
 import lightPullSwitchImage from "../../assets/light_pull_switch.svg";
 
-import styles from "../../style/NightHome.module.css";
+import styles from "../../style/home/NightHome.module.css";
 
 const NightHome = () => {
 

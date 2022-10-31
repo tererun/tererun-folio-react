@@ -1,7 +1,5 @@
-import { Link } from "react-router-dom";
-
-import "../style/works/Works.css"
 import styles from "../style/works/Works.module.css";
+
 import WorkCard from "../components/works/WorkCard";
 
 const Works = () => {

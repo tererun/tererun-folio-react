@@ -12,7 +12,7 @@
     top: 93px;
     left: 53px;
     width: 40px;
-    clip-path: inset(0px 0 0 0);
+    clip-path: inset(0 0 0 0);
     animation: tererun-eyes-animation 3s cubic-bezier(0, 0.7, 0.4, 1) infinite;
 }
 

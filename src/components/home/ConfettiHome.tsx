@@ -1,4 +1,4 @@
-import styles from "../../style/ConfettiHome.module.css";
+import styles from "../../style/home/ConfettiHome.module.css";
 
 const ConfettiHome = () => {
 

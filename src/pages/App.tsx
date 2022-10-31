@@ -1,20 +1,18 @@
-import { useState } from "react"
-import { BrowserRouter, Routes,  Route } from "react-router-dom";
-
-import Home from "./Home";
-import Works from "./Works";
+import {BrowserRouter} from "react-router-dom";
 
 import "../style/App.css"
+import TopNavigation from "../components/navigations/TopNavigation";
+import AnimatedRouter from "../components/router/AnimatedRouter";
 
 const App = () => {
 
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path={"/"} element={<Home />} />
-                <Route path={"/works"} element={<Works />} />
-            </Routes>
-        </BrowserRouter>
+        <div className={"App"}>
+            <BrowserRouter>
+                <TopNavigation />
+                <AnimatedRouter />
+            </BrowserRouter>
+        </div>
     );
 
 }

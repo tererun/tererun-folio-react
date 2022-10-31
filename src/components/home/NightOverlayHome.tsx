@@ -1,4 +1,4 @@
-import styles from "../../style/NightOverlayHome.module.css";
+import styles from "../../style/home/NightOverlayHome.module.css";
 
 const NightOverlayHome = () => {
 

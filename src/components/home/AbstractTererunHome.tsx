@@ -2,7 +2,7 @@ import React from "react";
 
 import abstractTererunIcon from "../../assets/abstract_tererun.svg";
 
-import styles from "../../style/AbstractTererunHome.module.css";
+import styles from "../../style/home/AbstractTererunHome.module.css";
 
 const DefaultHome = () => {
     return (

@@ -1,4 +1,4 @@
-import styles from "../style/Home.module.css";
+import styles from "../style/home/Home.module.css";
 import DefaultHome from "../components/home/DefaultHome";
 import AbstractTererunHome from "../components/home/AbstractTererunHome";
 import ConfettiHome from "../components/home/ConfettiHome";
