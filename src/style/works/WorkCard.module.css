@@ -23,6 +23,12 @@
     margin: 8px 0 8px 0;
 }
 
+.WorkCardInfoDate{
+    font-size: 14px;
+    color: #8a8a8a;
+    margin-bottom: 24px;
+}
+
 .WorkCardInfoDescription{
     margin: 0;
 }

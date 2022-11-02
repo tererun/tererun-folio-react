@@ -8,9 +8,18 @@ const Works = () => {
             <div className={styles.WorksContainer}>
                 <h1 className={styles.WorksTitle}>Works</h1>
                 <div className={styles.WorkCardContainer}>
-                    <WorkCard title={"ゴラクバ!ラッキーブロック"} description={"動画内にて使用されたMODの実装"} thumbnail={"http://img.youtube.com/vi/bS7zqF2t3rk/maxresdefault.jpg"} />
-                    <WorkCard title={"HyperCrate"} description={"クレートが作成できるプラグイン"} thumbnail={"https://pbs.twimg.com/media/EqEW89tU8AA6IOZ?format=jpg&name=large"} />
-                    <WorkCard title={"てれきゃっぷ"} description={"みんなで被れるてれるんのグッズ"} thumbnail={"https://pbs.twimg.com/media/FexammTaUAAabwf?format=jpg&name=large"} />
+                    <WorkCard
+                        title={"ゴラクバ!ラッキーブロック"}
+                        description={"動画内にて使用されたMODの実装"}
+                        date={"2022/10"}
+                        thumbnail={"//img.youtube.com/vi/bS7zqF2t3rk/maxresdefault.jpg"}
+                    />
+                    <WorkCard
+                        title={"HyperCrate"}
+                        description={"クレートが作成できるプラグイン"}
+                        date={"2020/12"}
+                        thumbnail={"//pbs.twimg.com/media/EqEW89tU8AA6IOZ?format=jpg&name=large"}
+                    />
                 </div>
             </div>
         </div>

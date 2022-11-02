@@ -19,6 +19,7 @@ const TopNavigation = () => {
             </div>
             <div className={`${styles.TopNavigationList} ${navigating ? styles.TopNavigationListEnable : (hasClicked ? styles.TopNavigationListDisable : "")}`}>
                 <TopNavigationContent title={"Home"} src={"/"} isRouterLink={true}/>
+                <TopNavigationContent title={"About"} src={"/about"} isRouterLink={true}/>
                 <TopNavigationContent title={"Works"} src={"/works"} isRouterLink={true}/>
             </div>
         </div>

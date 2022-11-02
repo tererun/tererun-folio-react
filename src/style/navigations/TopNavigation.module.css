@@ -1,6 +1,7 @@
 .TopNavigation {
     position: fixed;
     z-index: 100;
+    user-select: none;
 }
 
 .TopNavigationIcon {

@@ -1,6 +1,7 @@
 .Works {
     background-color: #f1f2f6;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .WorksTitle {
@@ -21,34 +22,4 @@
     grid-template-columns: repeat(auto-fit, 340px);
     justify-content: center;
     grid-gap: 1rem;
-}
-
-.Works:before {
-    content: "aaaaaa";
-    position: absolute;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #000000;
-    z-index: 98;
-    animation: page-transition-animation 400ms;
-    animation-fill-mode: forwards;
-}
-
-@keyframes page-transition-animation {
-
-    0% {
-        transform: translateX(0);
-    }
-
-    30% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(100vw);
-        display: none;
-        z-index: 0;
-    }
-
 }

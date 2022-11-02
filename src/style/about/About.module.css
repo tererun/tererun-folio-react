@@ -1,0 +1,36 @@
+.About {
+    background-color: #f1f2f6;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutContents {
+    background-color: white;
+    filter: drop-shadow(0 0 16px #00000026);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 200px;
+    min-width: 500px;
+    max-width: 600px;
+    margin: 32px;
+    padding: 32px;
+}
+
+.AboutIconWrapper img {
+    width: 128px;
+    image-rendering: pixelated;
+    border-radius: 50%;
+}
+
+.AboutDescription {
+    width: 280px;
+}
+
+.AboutDescription h1 {
+    font-size: 28px;
+}

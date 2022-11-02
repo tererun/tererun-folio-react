@@ -3,6 +3,7 @@ import DefaultHome from "../components/home/DefaultHome";
 import AbstractTererunHome from "../components/home/AbstractTererunHome";
 import ConfettiHome from "../components/home/ConfettiHome";
 import NightHome from "../components/home/NightHome";
+import TypingTererunHome from "../components/home/TypingTererunHome";
 
 const Home = () => {
 
@@ -16,6 +17,8 @@ const Home = () => {
     const randomizedNumber = getRandomInt(100);
     if (randomizedNumber == 57) {
         contents = <AbstractTererunHome />
+    } else if (randomizedNumber == 10) {
+        contents = <TypingTererunHome />
     }
     if (date.getMonth() == 11 && date.getDate() == 19) {
         confetti = <ConfettiHome />

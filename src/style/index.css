@@ -24,7 +24,6 @@
 
 body {
     margin: 0;
-    display: inline-block;
     min-width: 320px;
     min-height: 100vh;
     width: 100%;
@@ -40,6 +39,11 @@ h1 {
 }
 
 img {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+object {
     user-select: none;
     -webkit-user-drag: none;
 }

@@ -1,0 +1,61 @@
+.AnimatedRouter {
+    position: relative;
+}
+
+.AnimatedRouter > * {
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.slider-exit-active:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    left: 0;
+    top: 0;
+    animation: black-out-fade-in 300ms;
+}
+
+.slider-enter {
+    position: absolute;
+}
+
+.slider-enter:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    left: 0;
+    top: 0;
+    animation: black-out-fade-out 300ms;
+    animation-delay: 298ms;
+    transform: translateX(-100%);
+}
+
+@keyframes black-out-fade-in {
+
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes black-out-fade-out {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+
+}
