@@ -1,5 +1,7 @@
 .WorkCard {
     display: flex;
+    color: #2a2a2a;
+    text-decoration: none;
     flex-direction: column;
     background-color: white;
     width: 320px;
@@ -7,6 +9,13 @@
     padding: 8px;
     border-radius: 48px 0;
     filter: drop-shadow(0 0 16px #00000026);
+    transition-duration: .1s;
+    user-select: none;
+}
+
+.WorkCard:hover {
+    z-index: 1000;
+    transform: scale(1.05);
 }
 
 .WorkCardThumbnail {
@@ -24,6 +33,7 @@
 }
 
 .WorkCardInfoDate{
+    font-weight: bold;
     font-size: 14px;
     color: #8a8a8a;
     margin-bottom: 24px;

@@ -1,0 +1,28 @@
+.AboutCard {
+    background-color: white;
+    margin: 8px;
+    padding: 24px;
+    width: 270px;
+    min-height: 70px;
+    border-radius: 24px;
+}
+
+.AboutCardDate {
+    color: #47B5FF;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.AboutCardContents {
+    width: 100%;
+    margin-left: 8px;
+    word-wrap: break-word;
+}
+
+.AboutCardTitle {
+    margin: 14px 0 4px 0;
+}
+
+.AboutCardDescription {
+    width: 100%;
+}

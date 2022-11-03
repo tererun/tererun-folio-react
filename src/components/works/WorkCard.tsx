@@ -6,19 +6,20 @@ type Props = {
     title: string,
     date: string,
     description: string,
-    thumbnail: string
+    thumbnail: string,
+    url: string
 }
 
 const WorkCard = (props: Props) => {
     return (
-        <div className={styles.WorkCard}>
-            <img className={styles.WorkCardThumbnail} src={props.thumbnail} />
+        <a className={styles.WorkCard} href={props.url} target="_blank" rel="noreferrer noopener">
+            <img className={styles.WorkCardThumbnail} src={props.thumbnail} alt={"thumbnail"} />
             <div className={styles.WorkCardInfoContainer}>
                 <h2 className={styles.WorkCardInfoTitle}>{props.title}</h2>
                 <div className={styles.WorkCardInfoDate}>{props.date}</div>
                 <div className={styles.WorkCardInfoDescription}>{props.description}</div>
             </div>
-        </div>
+        </a>
     );
 };
 

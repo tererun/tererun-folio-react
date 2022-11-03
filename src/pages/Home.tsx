@@ -17,7 +17,7 @@ const Home = () => {
     const randomizedNumber = getRandomInt(100);
     if (randomizedNumber == 57) {
         contents = <AbstractTererunHome />
-    } else if (randomizedNumber == 10) {
+    } else if (randomizedNumber == 7) {
         contents = <TypingTererunHome />
     }
     if (date.getMonth() == 11 && date.getDate() == 19) {
