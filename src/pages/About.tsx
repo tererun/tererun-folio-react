@@ -1,6 +1,7 @@
 import pixelTererunIcon from "../assets/pixel_tererun.png";
 import {
     AlignJustified,
+    BrandDiscord,
     BrandGithub,
     BrandTwitch,
     BrandTwitter,
@@ -22,6 +23,7 @@ const About = () => {
                         <img src={pixelTererunIcon} alt={"tererun"} />
                         <div className={styles.AboutLinksWrapper}>
                             <a href={"https://twitter.com/tererun1/"} target="_blank" rel="noreferrer noopener"><BrandTwitter /></a>
+                            <a href={"https://discord.com/users/292431056135782402/"} target="_blank" rel="noreferrer noopener"><BrandDiscord /></a>
                             <a href={"https://youtube.com/@tererun/"} target="_blank" rel="noreferrer noopener"><BrandYoutube /></a>
                             <a href={"https://twitch.com/tererun/"} target="_blank" rel="noreferrer noopener"><BrandTwitch /></a>
                             <a href={"https://github.com/tererun/"} target="_blank" rel="noreferrer noopener"><BrandGithub /></a>
