@@ -34,7 +34,7 @@ const About = () => {
                     <div className={styles.AboutDescription}>
                         <h1>tererun / てれるん</h1>
                         <div>
-                            高校三年生のプログラマー。<br/>Spigot プラグイン制作やゲーム制作、動画編集、作曲など様々な創作活動をしている。<br/>主な活動は、いぬたぬきクリエイティブアカデミアやFREESERVER Project、プラ塾など。
+                            大学一年生のプログラマー。<br/>Spigot プラグイン制作やゲーム制作、動画編集、作曲など様々な創作活動をしている。<br/>主な活動は、いぬたぬきクリエイティブアカデミアやFREESERVER Project、プラ塾など。
                         </div>
                     </div>
                 </div>
@@ -45,6 +45,7 @@ const About = () => {
                 <AboutCard date={"2017.12 ~"} title={"FREESERVER Project"} description={"SubOwner / Developer"}/>
                 <AboutCard date={"2022.02 ~"} title={"プラグイン塾"} description={"塾長"}/>
                 <AboutCard date={"2022.05 ~"} title={"いぬたぬきクリエイティブアカデミア"} description={"企画実装"}/>
+                <AboutCard date={"2023.05 ~"} title={"Tobiratory"} description={"Developer"}/>
             </div>
         </div>
     );
