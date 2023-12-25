@@ -23,3 +23,30 @@
     justify-content: center;
     grid-gap: 1rem;
 }
+
+.Category {
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 9999px;
+    border: 2px solid #8fc5a2;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.CategorySelect {
+    background-color: #8fc5a2;
+    color: white;
+}
+
+.Category p {
+    margin: 0;
+}
+
+.CategoryList {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    user-select: none;
+}

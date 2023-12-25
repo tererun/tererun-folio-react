@@ -1,5 +1,7 @@
 import React from "react";
 
+import { CategoryType, Categories } from "../../data/WorksData";
+
 import styles from "../../style/works/WorkCard.module.css";
 
 type Props = {
@@ -7,7 +9,8 @@ type Props = {
     date: string,
     description: string,
     thumbnail: string,
-    url: string
+    url: string,
+    category: CategoryType[],
 }
 
 const WorkCard = (props: Props) => {
@@ -16,7 +19,18 @@ const WorkCard = (props: Props) => {
             <img className={styles.WorkCardThumbnail} src={props.thumbnail} alt={"thumbnail"} />
             <div className={styles.WorkCardInfoContainer}>
                 <h2 className={styles.WorkCardInfoTitle}>{props.title}</h2>
-                <div className={styles.WorkCardInfoDate}>{props.date}</div>
+                <div className={styles.WorkCardInfoLineTwo}>
+                    <p>{props.date}</p>
+                    <div className={styles.WorkCardInfoCategoryWrapper}>
+                        {
+                            props.category.map((category) => {
+                                return (
+                                    <span key={category} className={styles.WorkCardInfoCategory}>{Categories[category]}</span>
+                                );
+                            })
+                        }
+                    </div>
+                </div>
                 <div className={styles.WorkCardInfoDescription}>{props.description}</div>
             </div>
         </a>
