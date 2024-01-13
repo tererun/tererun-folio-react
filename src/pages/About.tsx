@@ -46,7 +46,7 @@ const About = () => {
                 <AboutCard date={"2022.02 ~"} title={"プラグイン塾"} description={"塾長"}/>
                 <AboutCard date={"2022.05 ~"} title={"いぬたぬきクリエイティブアカデミア"} description={"企画実装"}/>
                 <AboutCard date={"2023.05 ~"} title={"Tobiratory"} description={"Developer"}/>
-                <AboutCard date={"2023.09 ~"} title={"StarryCherry"} description={"Creator"}/>
+                <AboutCard date={"2023.09 ~"} title={"StarryRain"} description={"Creator"}/>
             </div>
         </div>
     );
