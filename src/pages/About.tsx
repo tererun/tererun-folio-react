@@ -37,7 +37,7 @@ const About = () => {
                     <div className={styles.AboutDescription}>
                         <h1>tererun / てれるん</h1>
                         <div>
-                            {date}歳のクリエイター。<br/>プログラミングやゲーム制作、動画編集、作曲など様々な創作活動をしている。<br/>主な活動は、Tobiratoryやいぬたぬきクリエイティブアカデミア、FREESERVER Project、プラ塾など。
+                            {old}歳のクリエイター。<br/>プログラミングやゲーム制作、動画編集、作曲など様々な創作活動をしている。<br/>主な活動は、Tobiratoryやいぬたぬきクリエイティブアカデミア、FREESERVER Project、プラ塾など。
                         </div>
                     </div>
                 </div>
