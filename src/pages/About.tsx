@@ -15,6 +15,9 @@ import AboutCard from "../components/about/AboutCard";
 
 const About = () => {
 
+    const nowDate = new Date();
+    const old = nowDate.getMonth() == 12 && nowDate.getDay() >= 19 ? (nowDate.getFullYear()) - 2004 : (nowDate.getFullYear()) - 2005;
+
     return (
         <div className={styles.About}>
             <div className={styles.AboutContentsWrapper}>
@@ -34,7 +37,7 @@ const About = () => {
                     <div className={styles.AboutDescription}>
                         <h1>tererun / てれるん</h1>
                         <div>
-                            大学一年生のプログラマー。<br/>Spigot プラグイン制作やゲーム制作、動画編集、作曲など様々な創作活動をしている。<br/>主な活動は、Tobiratoryやいぬたぬきクリエイティブアカデミア、FREESERVER Project、プラ塾など。
+                            {date}歳のクリエイター。<br/>プログラミングやゲーム制作、動画編集、作曲など様々な創作活動をしている。<br/>主な活動は、Tobiratoryやいぬたぬきクリエイティブアカデミア、FREESERVER Project、プラ塾など。
                         </div>
                     </div>
                 </div>
@@ -46,7 +49,7 @@ const About = () => {
                 <AboutCard date={"2022.02 ~"} title={"プラグイン塾"} description={"塾長"}/>
                 <AboutCard date={"2022.05 ~"} title={"いぬたぬきクリエイティブアカデミア"} description={"企画実装"}/>
                 <AboutCard date={"2023.05 ~"} title={"Tobiratory"} description={"Developer"}/>
-                <AboutCard date={"2023.09 ~"} title={"StarryRain"} description={"Creator"}/>
+                <AboutCard date={"2023.09 ~ 2024.07"} title={"StarryRain"} description={"Creator"}/>
             </div>
         </div>
     );
